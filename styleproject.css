@@ -1,0 +1,51 @@
+.navbar {
+  background-color: #ff8000;
+}
+.display-2 {
+  margin-left: 50px;
+}
+.footer {
+  background-color: #ffa500;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: rgb(255, 255, 255);
+}
+.about {
+  background-color: rgb(255, 145, 0);
+}
+.btn-orange {
+  color: #fff;
+  background-color: #ff9100; /* Orange color */
+  border-color: #ff9100; /* Border color same as background */
+}
+.btn-orange:hover {
+  background-color: #e68300; /* Darker orange color on hover */
+  border-color: #e68300; /* Border color same as hover background */
+}
+
+#project {
+  padding: 20px;
+  background-color: rgb(255, 145, 0);
+}
+#project .container {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.5); /* Gray color with 50% opacity */
+}
+#project h2 {
+  margin-top: 20px; /* Adjust this value as needed */
+}
+
+#section {
+  padding-top: 5rem;
+  background-color: #ff8000;
+}
+
+.profile-list li {
+  margin-bottom: 20px; /* Atur jarak antara setiap item list */
+}
+
+.about-third .col-lg-4 {
+  margin-top: 20px; /* Atur jarak antara setiap kolom di bagian ketiga */
+}

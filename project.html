@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio | Satya Ananda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styleproject.css" />
+    <style>
+      .large-img {
+        width: 100%;
+        height: auto;
+      }
+      .project-card {
+        margin-bottom: 3rem; /* Adjust the value as needed for spacing */
+      }
+      .horizontal-img {
+        width: 24%;
+        margin-right: 1%;
+      }
+      .horizontal-img:last-child {
+        margin-right: 0;
+      }
+    </style>
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-orange shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html#home">PORTFOLIO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#skill">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Project -->
+    <section id="project">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>My Projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 project-card">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Kontes Robot Tematik Indonesia</h5>
+                <a href="project.html"><img src="Foto/Sulistiagrip.jpg" class="card-img-top large-img mb-3" alt="Project 1 Image 1" /></a>
+                <a href="project.html"><img src="Foto/Sulistiagrip1.jpg" class="card-img-top large-img mb-3" alt="Project 1 Image 2" /></a>
+                <h5>How it works</h5>
+                <ul class="card-text">
+                  <li>KRI(Indonesian Robot Contest)branch of KRTMI(the Indonesian thematic robot contest)</li>
+                  <li>The robot takes coins from the rack to place them on the field coordinates</li>
+                  <li>Combining physical concepts with digital visuals</li>
+                </ul>
+                <h5>My role in the project</h5>
+                <ul class="card-text">
+                  <li>3D Design Mechanical and grip system</li>
+                  <li>3D printing and assembly robot</li>
+                  <li>Electronics support</li>
+                </ul>
+                <div class="d-flex mt-3">
+                  <img src="Foto/Sulistiagrip2.jpg" class="horizontal-img d-block mx-auto" alt="Additional Image 1" />
+                  <img src="Foto/SulistiaDesign.png" class="horizontal-img d-block mx-auto" alt="Additional Image 2" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10 project-card">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Digital Image Processing System on UAV to Detect Victims of Natural Disasters</h5>
+                <a href="Foto/Minipc.jpg"><img src="Foto/Minipc.jpg" class="card-img-top large-img mb-3" alt="Project 2 Image 1" /></a>
+                <a href="Foto/receiver.jpg"><img src="Foto/receiver.jpg" class="card-img-top large-img mb-3" alt="Project 2 Image 2" /></a>
+                <h5>How it works</h5>
+                <ul class="card-text">
+                  <li>Detecting Natural Disaster Victims with Image Processing in the form of victims standing, sitting, lying down</li>
+                  <li>send information about the detected victim to the user in the form of the victim's coordinates and the victim's position</li>
+                </ul>
+                <h5>My role in the project</h5>
+                <ul class="card-text">
+                  <li>Electronics and PCB Design</li>
+                  <li>3D Design Casing</li>
+                  <li>Research in wireless communication system to user using Radio Frequency</li>
+                  <li>Making GPS system</li>
+                </ul>
+                <div class="d-flex center mt-3">
+                  <img src="Foto/Berdiri.png" class="horizontal-img d-block mx-auto" alt="Additional Image 5" />
+                  <img src="Foto/receiver.jpg" class="horizontal-img d-block mx-auto" alt="Additional Image 6" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"></svg>
+    </section>
+    <!-- Akhir Project -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>Created by <a href="https://www.linkedin.com/in/tauifqulsatya/" class="text-white fw-bold">Satya Ananda</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
